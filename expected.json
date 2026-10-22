@@ -1,0 +1,919 @@
+{
+ "cases": [
+  {
+   "fn": "course",
+   "args": [
+    "16",
+    "4"
+   ],
+   "expect": "A wall 16 inches tall in courses of 4 inches takes 4 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "20",
+    "4",
+    "18"
+   ],
+   "expect": "The 20 ft run in bags 18 inches long takes 14 bags a course, 56 bags over 4 courses."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "56",
+    "40"
+   ],
+   "expect": "The 56 bags at 40 lb hold 2240 lb, or 1.12 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "56",
+    "1.25",
+    "25",
+    "20"
+   ],
+   "expect": "The 56 bags at $1.25 and $25 delivery cost $95.00, or $4.75 a foot over the 20."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "224",
+    "17"
+   ],
+   "expect": "A wall 224 inches tall in courses of 17 inches takes 14 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "103",
+    "11"
+   ],
+   "expect": "A wall 103 inches tall in courses of 11 inches takes 10 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "78",
+    "3"
+   ],
+   "expect": "A wall 78 inches tall in courses of 3 inches takes 26 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "77",
+    "20"
+   ],
+   "expect": "A wall 77 inches tall in courses of 20 inches takes 4 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "96",
+    "7"
+   ],
+   "expect": "A wall 96 inches tall in courses of 7 inches takes 14 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "90",
+    "24"
+   ],
+   "expect": "A wall 90 inches tall in courses of 24 inches takes 4 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "232",
+    "1"
+   ],
+   "expect": "A wall 232 inches tall in courses of 1 inches takes 232 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "73",
+    "24"
+   ],
+   "expect": "A wall 73 inches tall in courses of 24 inches takes 4 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "192",
+    "21"
+   ],
+   "expect": "A wall 192 inches tall in courses of 21 inches takes 10 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "108",
+    "15"
+   ],
+   "expect": "A wall 108 inches tall in courses of 15 inches takes 8 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "66",
+    "10"
+   ],
+   "expect": "A wall 66 inches tall in courses of 10 inches takes 7 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "147",
+    "10"
+   ],
+   "expect": "A wall 147 inches tall in courses of 10 inches takes 15 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "117",
+    "22"
+   ],
+   "expect": "A wall 117 inches tall in courses of 22 inches takes 6 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "120",
+    "5"
+   ],
+   "expect": "A wall 120 inches tall in courses of 5 inches takes 24 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "225",
+    "15"
+   ],
+   "expect": "A wall 225 inches tall in courses of 15 inches takes 15 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "210",
+    "20"
+   ],
+   "expect": "A wall 210 inches tall in courses of 20 inches takes 11 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "234",
+    "10"
+   ],
+   "expect": "A wall 234 inches tall in courses of 10 inches takes 24 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "81",
+    "7"
+   ],
+   "expect": "A wall 81 inches tall in courses of 7 inches takes 12 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "198",
+    "20"
+   ],
+   "expect": "A wall 198 inches tall in courses of 20 inches takes 10 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "99",
+    "17"
+   ],
+   "expect": "A wall 99 inches tall in courses of 17 inches takes 6 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "33",
+    "20"
+   ],
+   "expect": "A wall 33 inches tall in courses of 20 inches takes 2 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "10",
+    "2"
+   ],
+   "expect": "A wall 10 inches tall in courses of 2 inches takes 5 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "63",
+    "10"
+   ],
+   "expect": "A wall 63 inches tall in courses of 10 inches takes 7 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "162",
+    "20"
+   ],
+   "expect": "A wall 162 inches tall in courses of 20 inches takes 9 courses."
+  },
+  {
+   "fn": "course",
+   "args": [
+    "4",
+    "11"
+   ],
+   "expect": "A wall 4 inches tall in courses of 11 inches takes 1 course."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "8587",
+    "90",
+    "28"
+   ],
+   "expect": "The 8587 ft run in bags 28 inches long takes 3681 bags a course, 331290 bags over 90 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "114",
+    "15",
+    "11"
+   ],
+   "expect": "The 114 ft run in bags 11 inches long takes 125 bags a course, 1875 bags over 15 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "5981",
+    "99",
+    "59"
+   ],
+   "expect": "The 5981 ft run in bags 59 inches long takes 1217 bags a course, 120483 bags over 99 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "2586",
+    "21",
+    "105"
+   ],
+   "expect": "The 2586 ft run in bags 105 inches long takes 296 bags a course, 6216 bags over 21 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "3084",
+    "5",
+    "5"
+   ],
+   "expect": "The 3084 ft run in bags 5 inches long takes 7402 bags a course, 37010 bags over 5 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7597",
+    "61",
+    "104"
+   ],
+   "expect": "The 7597 ft run in bags 104 inches long takes 877 bags a course, 53497 bags over 61 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "2410",
+    "37",
+    "34"
+   ],
+   "expect": "The 2410 ft run in bags 34 inches long takes 851 bags a course, 31487 bags over 37 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "1085",
+    "2",
+    "46"
+   ],
+   "expect": "The 1085 ft run in bags 46 inches long takes 284 bags a course, 568 bags over 2 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "5283",
+    "43",
+    "85"
+   ],
+   "expect": "The 5283 ft run in bags 85 inches long takes 746 bags a course, 32078 bags over 43 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7979",
+    "20",
+    "17"
+   ],
+   "expect": "The 7979 ft run in bags 17 inches long takes 5633 bags a course, 112660 bags over 20 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "1043",
+    "78",
+    "18"
+   ],
+   "expect": "The 1043 ft run in bags 18 inches long takes 696 bags a course, 54288 bags over 78 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "239",
+    "98",
+    "117"
+   ],
+   "expect": "The 239 ft run in bags 117 inches long takes 25 bags a course, 2450 bags over 98 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7176",
+    "96",
+    "36"
+   ],
+   "expect": "The 7176 ft run in bags 36 inches long takes 2392 bags a course, 229632 bags over 96 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "2808",
+    "72",
+    "116"
+   ],
+   "expect": "The 2808 ft run in bags 116 inches long takes 291 bags a course, 20952 bags over 72 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "4769",
+    "87",
+    "53"
+   ],
+   "expect": "The 4769 ft run in bags 53 inches long takes 1080 bags a course, 93960 bags over 87 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7552",
+    "25",
+    "105"
+   ],
+   "expect": "The 7552 ft run in bags 105 inches long takes 864 bags a course, 21600 bags over 25 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "9475",
+    "38",
+    "105"
+   ],
+   "expect": "The 9475 ft run in bags 105 inches long takes 1083 bags a course, 41154 bags over 38 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "5263",
+    "22",
+    "48"
+   ],
+   "expect": "The 5263 ft run in bags 48 inches long takes 1316 bags a course, 28952 bags over 22 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7245",
+    "14",
+    "62"
+   ],
+   "expect": "The 7245 ft run in bags 62 inches long takes 1403 bags a course, 19642 bags over 14 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "164",
+    "94",
+    "34"
+   ],
+   "expect": "The 164 ft run in bags 34 inches long takes 58 bags a course, 5452 bags over 94 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "7625",
+    "1",
+    "44"
+   ],
+   "expect": "The 7625 ft run in bags 44 inches long takes 2080 bags a course, 2080 bags over 1 course."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "6450",
+    "11",
+    "115"
+   ],
+   "expect": "The 6450 ft run in bags 115 inches long takes 674 bags a course, 7414 bags over 11 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "5481",
+    "18",
+    "102"
+   ],
+   "expect": "The 5481 ft run in bags 102 inches long takes 645 bags a course, 11610 bags over 18 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "6160",
+    "59",
+    "96"
+   ],
+   "expect": "The 6160 ft run in bags 96 inches long takes 770 bags a course, 45430 bags over 59 courses."
+  },
+  {
+   "fn": "bags",
+   "args": [
+    "5628",
+    "1",
+    "88"
+   ],
+   "expect": "The 5628 ft run in bags 88 inches long takes 768 bags a course, 768 bags over 1 course."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "64961627",
+    "55"
+   ],
+   "expect": "The 64961627 bags at 55 lb hold 3572889485 lb, or 1786444.74 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "29980476",
+    "118"
+   ],
+   "expect": "The 29980476 bags at 118 lb hold 3537696168 lb, or 1768848.08 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "63941741",
+    "114"
+   ],
+   "expect": "The 63941741 bags at 114 lb hold 7289358474 lb, or 3644679.24 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "21163146",
+    "126"
+   ],
+   "expect": "The 21163146 bags at 126 lb hold 2666556396 lb, or 1333278.2 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "9410000",
+    "29"
+   ],
+   "expect": "The 9410000 bags at 29 lb hold 272890000 lb, or 136445 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "36961340",
+    "143"
+   ],
+   "expect": "The 36961340 bags at 143 lb hold 5285471620 lb, or 2642735.81 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "12222199",
+    "72"
+   ],
+   "expect": "The 12222199 bags at 72 lb hold 879998328 lb, or 439999.16 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "32082264",
+    "134"
+   ],
+   "expect": "The 32082264 bags at 134 lb hold 4299023376 lb, or 2149511.69 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "53227757",
+    "166"
+   ],
+   "expect": "The 53227757 bags at 166 lb hold 8835807662 lb, or 4417903.83 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "73404518",
+    "101"
+   ],
+   "expect": "The 73404518 bags at 101 lb hold 7413856318 lb, or 3706928.16 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "71408678",
+    "17"
+   ],
+   "expect": "The 71408678 bags at 17 lb hold 1213947526 lb, or 606973.76 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "74782426",
+    "122"
+   ],
+   "expect": "The 74782426 bags at 122 lb hold 9123455972 lb, or 4561727.99 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "24029064",
+    "50"
+   ],
+   "expect": "The 24029064 bags at 50 lb hold 1201453200 lb, or 600726.6 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "39779698",
+    "177"
+   ],
+   "expect": "The 39779698 bags at 177 lb hold 7041006546 lb, or 3520503.27 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "39852748",
+    "163"
+   ],
+   "expect": "The 39852748 bags at 163 lb hold 6495997924 lb, or 3247998.96 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "44358576",
+    "166"
+   ],
+   "expect": "The 44358576 bags at 166 lb hold 7363523616 lb, or 3681761.81 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "86311723",
+    "127"
+   ],
+   "expect": "The 86311723 bags at 127 lb hold 10961588821 lb, or 5480794.41 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "22892220",
+    "165"
+   ],
+   "expect": "The 22892220 bags at 165 lb hold 3777216300 lb, or 1888608.15 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "51929792",
+    "99"
+   ],
+   "expect": "The 51929792 bags at 99 lb hold 5141049408 lb, or 2570524.7 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "31797543",
+    "192"
+   ],
+   "expect": "The 31797543 bags at 192 lb hold 6105128256 lb, or 3052564.13 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51563864",
+    "6250.77",
+    "1545.86",
+    "4930"
+   ],
+   "expect": "The 51563864 bags at $6250.77 and $1545.86 delivery cost $322313855721.14, or $65378064.04 a foot over the 4930."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38844369",
+    "6663.26",
+    "6461.52",
+    "3395"
+   ],
+   "expect": "The 38844369 bags at $6663.26 and $6461.52 delivery cost $258830136644.46, or $76238626.40 a foot over the 3395."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72020790",
+    "9819.09",
+    "9057.18",
+    "6298"
+   ],
+   "expect": "The 72020790 bags at $9819.09 and $9057.18 delivery cost $707178627938.28, or $112286222.28 a foot over the 6298."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73185802",
+    "6899.34",
+    "877.44",
+    "6952"
+   ],
+   "expect": "The 73185802 bags at $6899.34 and $877.44 delivery cost $504933732048.12, or $72631434.41 a foot over the 6952."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17843946",
+    "2178.96",
+    "6334.19",
+    "9980"
+   ],
+   "expect": "The 17843946 bags at $2178.96 and $6334.19 delivery cost $38881250910.35, or $3895916.92 a foot over the 9980."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "861765",
+    "9590.45",
+    "4514.95",
+    "733"
+   ],
+   "expect": "The 861765 bags at $9590.45 and $4514.95 delivery cost $8264718659.20, or $11275195.99 a foot over the 733."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68181657",
+    "5815.56",
+    "2447.32",
+    "6917"
+   ],
+   "expect": "The 68181657 bags at $5815.56 and $2447.32 delivery cost $396514519630.24, or $57324637.80 a foot over the 6917."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17797860",
+    "6665.49",
+    "2205.34",
+    "2085"
+   ],
+   "expect": "The 17797860 bags at $6665.49 and $2205.34 delivery cost $118631460056.74, or $56897582.76 a foot over the 2085."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86706148",
+    "3918.86",
+    "2614.71",
+    "9790"
+   ],
+   "expect": "The 86706148 bags at $3918.86 and $2614.71 delivery cost $339789257765.99, or $34707789.35 a foot over the 9790."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9976384",
+    "9218.55",
+    "5348.21",
+    "5227"
+   ],
+   "expect": "The 9976384 bags at $9218.55 and $5348.21 delivery cost $91967800071.41, or $17594758.00 a foot over the 5227."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "61451000",
+    "8037.52",
+    "5712.52",
+    "525"
+   ],
+   "expect": "The 61451000 bags at $8037.52 and $5712.52 delivery cost $493913647232.52, or $940787899.49 a foot over the 525."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "54026414",
+    "1946.12",
+    "7404.68",
+    "8557"
+   ],
+   "expect": "The 54026414 bags at $1946.12 and $7404.68 delivery cost $105141892218.36, or $12287237.61 a foot over the 8557."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27654232",
+    "4912.49",
+    "1452.88",
+    "1481"
+   ],
+   "expect": "The 27654232 bags at $4912.49 and $1452.88 delivery cost $135851139610.56, or $91729331.27 a foot over the 1481."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "40758913",
+    "1026.06",
+    "6983.37",
+    "7469"
+   ],
+   "expect": "The 40758913 bags at $1026.06 and $6983.37 delivery cost $41821097256.15, or $5599290.03 a foot over the 7469."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9095481",
+    "3025.96",
+    "9374.78",
+    "9614"
+   ],
+   "expect": "The 9095481 bags at $3025.96 and $9374.78 delivery cost $27522571061.54, or $2862759.63 a foot over the 9614."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "82107927",
+    "3112.81",
+    "9.29",
+    "6468"
+   ],
+   "expect": "The 82107927 bags at $3112.81 and $9.29 delivery cost $255586376254.16, or $39515518.90 a foot over the 6468."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "35766192",
+    "4793.59",
+    "2740.94",
+    "1862"
+   ],
+   "expect": "The 35766192 bags at $4793.59 and $2740.94 delivery cost $171448463050.22, or $92077584.88 a foot over the 1862."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92128411",
+    "6595.15",
+    "190.6",
+    "6551"
+   ],
+   "expect": "The 92128411 bags at $6595.15 and $190.6 delivery cost $607600689997.25, or $92749303.92 a foot over the 6551."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "44998486",
+    "946.19",
+    "969.37",
+    "6002"
+   ],
+   "expect": "The 44998486 bags at $946.19 and $969.37 delivery cost $42577118437.71, or $7093821.80 a foot over the 6002."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13168622",
+    "9298.14",
+    "5364.99",
+    "371"
+   ],
+   "expect": "The 13168622 bags at $9298.14 and $5364.99 delivery cost $122443696328.07, or $330036917.33 a foot over the 371."
+  }
+ ],
+ "errors": [
+  [
+   "course",
+   [
+    "0",
+    "4"
+   ]
+  ],
+  [
+   "course",
+   [
+    "16",
+    "0"
+   ]
+  ],
+  [
+   "course",
+   [
+    "16",
+    "25"
+   ]
+  ],
+  [
+   "bags",
+   [
+    "0",
+    "4",
+    "18"
+   ]
+  ],
+  [
+   "bags",
+   [
+    "20",
+    "0",
+    "18"
+   ]
+  ],
+  [
+   "bags",
+   [
+    "20",
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "0",
+    "40"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "56",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "56",
+    "201"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "1.25",
+    "25",
+    "20"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "56",
+    "0",
+    "25",
+    "20"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "56",
+    "1.25",
+    "0",
+    "20"
+   ]
+  ]
+ ]
+}
